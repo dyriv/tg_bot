@@ -1,2 +1,4 @@
-TOKEN = ''  # в скобки добавить токен бота
-chat_id = 123456789  # вместо цифр добавить чат id
+import os
+
+TOKEN = os.environ.get('BOT_TOKEN')
+chat_id = 737727183  # вместо цифр добавить чат id
